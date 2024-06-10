@@ -340,12 +340,12 @@ def main(): # creats days untill there are no more courses
             table.insert('',tk.END,values=d,tags=('dayrow'))
         table.insert('',tk.END,values=row,tags=('evenrow' if i % 2 == 0 else 'oddrow'))
     window.mainloop()
-# main()
-chromosome=evolution()
-pool=chromosome[0]
-schedule=chromosome[1]
-print(chromosome)
-print('-------------------------')
-print(pool)
-print('-------------------------')
-print(schedule)
+main()
+#chromosome=evolution()
+#pool=chromosome[0]
+#schedule=chromosome[1]
+#print(chromosome)
+#print('-------------------------')
+#print(pool)
+#print('-------------------------')
+#print(schedule)
